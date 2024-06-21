@@ -1,3 +1,79 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+}
+
+.bg-off-white {
+  background-color: #F0F3F7;
+  color: #5C7899;
+}
+.bg-off-white .h1, .bg-off-white .h2, .bg-off-white .h3, .bg-off-white .h4, .bg-off-white .h5, .bg-off-white .h6 {
+  color: #0075FF;
+}
+
+.bg-grey-darker {
+  background-color: #204166;
+  color: #fff;
+}
+
+.bg-brand {
+  background-color: #0075FF;
+  color: #FFFFFF;
+}
+
 body {
   font-family: "Inter";
   font-size: 0.875rem;
@@ -7,6 +83,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-smooth: never;
   color: #051B33;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .h1 {
@@ -41,6 +122,13 @@ body {
   font-size: 0.875rem;
 }
 
+p {
+  padding-bottom: 20px;
+}
+p:last-of-type {
+  padding-bottom: 0;
+}
+
 .text_p_large {
   font-size: 1.125rem;
 }
@@ -64,6 +152,61 @@ body {
 
 .text_caption {
   font-size: 0.75rem;
+}
+
+.btn {
+  text-decoration: none;
+}
+.btn-contact {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+.btn-contrast {
+  background-color: #FF5C00;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.btn-contrast:hover, .btn-contrast:focus {
+  background-color: #FF9326;
+}
+
+.nav_main {
+  padding: 20px 0;
+}
+.nav_main ul {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section {
+  padding: 145px 0;
+}
+.section-one-col {
+  text-align: center;
+}
+.section-one-col .container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.footer {
+  padding: 20px 0;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer .container a {
+  text-decoration: none;
+}
+.footer .container a:hover, .footer .container a:focus {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

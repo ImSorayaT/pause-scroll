@@ -1,0 +1,21 @@
+.btn{
+    text-decoration: none;
+
+    &-contact{
+        font-size: 0.875rem;
+        font-weight: bold;
+    }
+
+    &-contrast{
+        background-color: $contrast;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 8px;
+
+        &:hover, &:focus{
+            background-color: $contrast_light;
+        }
+    }
+
+    
+}

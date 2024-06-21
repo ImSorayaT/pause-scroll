@@ -23,3 +23,24 @@ $warning: #ED952B;
 $warning_hover: #D4801C;
 $danger: #D83A3A;
 $danger_hover: #BF2A2A;
+
+
+
+.bg-off-white{
+    background-color: $off_white;
+    color: $grey_dark;
+
+    .h1, .h2, .h3, .h4, .h5, .h6{
+        color: $brand;
+    }
+}
+
+.bg-grey-darker{
+    background-color: $grey_darker;
+    color: #fff;
+}
+
+.bg-brand{
+    background-color: $brand;
+    color: $white;
+}
