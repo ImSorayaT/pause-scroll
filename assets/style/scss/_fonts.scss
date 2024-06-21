@@ -1,0 +1,72 @@
+body{
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    line-height: 1.25;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+    color: $black;
+}
+
+
+// headings
+.h1{
+    font-size: 2.75rem;
+}
+
+.h2{
+    font-size: 2.25rem;
+}
+
+.h3{
+    font-size: 2rem;
+}
+
+.h4{
+    font-size: 1.75rem;
+}
+
+.h5{
+    font-size: 1.5rem;
+}
+
+.h6{
+    font-size: 1.25rem;
+}
+
+// subtitle
+.text_subtitle1{
+    font-size: 1rem;
+}
+
+.text_subtitle2{
+    font-size: 0.875rem;
+}
+
+// paragraphs
+.text_p_large{
+    font-size: 1.125rem;
+}
+
+.text_p_medium{
+    font-size: 1rem;
+}
+
+.text_p_small{
+    font-size: 0.875rem;
+}
+
+// other
+.btn{
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.text_overline{
+    font-size: 1rem;
+}
+
+.text_caption{
+    font-size: 0.75rem;
+}
