@@ -1,0 +1,43 @@
+.section{
+    &.snap{
+        padding: 120px 0;
+    }
+
+    .scrollmagic-pin-spacer{
+        &:nth-child(even){
+            .slide{
+                .container{
+                    flex-flow: row-reverse;
+                }
+            }
+        }
+    }
+    .slide{
+        padding: 20px 0;
+        .container{
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            gap: 40px;
+        }
+
+       
+    }
+
+    @media screen and (max-width: 1200px) {
+        display: block;
+        
+        .slide{
+            .container{
+                display: block;
+                width: 90%;
+
+                img{
+                    padding-bottom: 40px;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

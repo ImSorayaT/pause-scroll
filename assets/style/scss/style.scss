@@ -2,20 +2,18 @@
 @import 'variables';
 @import 'fonts';
 @import 'btn';
+@import 'snap';
 
 
 .nav_main{
     padding: 20px 0;
     ul{
         max-width: 1200px;
+        width: 90%;
         margin: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        li{
-            
-        }
     }
 }
 
@@ -26,8 +24,9 @@
         text-align: center;
 
         .container{
-            max-width: 600px;
+            max-width: 604px;
             margin: auto;
+            padding: 0 5%;
         }
     }
 }
@@ -40,6 +39,7 @@
         justify-content: space-between;
         align-items: center;    
         max-width: 1200px;
+        width: 90%;
         margin: auto;    
 
         a{
@@ -50,3 +50,4 @@
         }
     }
 }
+
